@@ -11,7 +11,8 @@ Importante resaltar que configurei a porta para 8081, pois é menos provavel de 
 
 Criei 2 testes unitarios para facilitar o entendimento do negocio e manter a qualidade da entrega, os mesmos foram criados principalemte pensando na parte de consumir o json disposto. Para fazer isso utilizei do RestTemplate. Adicionei uma anootation para deixar a porta randomica para os testes, assim evitando algum possivel problema. 
 
-Para ter acesso aos titles , basta apontar no browser ou em alguma ferramenta (postman por exemplo) os seguintes links : 
+Para ter acesso aos titles , basta apontar no browser ou em alguma ferramenta (postman por exemplo) os seguintes links depois que a aplicação ja estiver no ar : 
+
 http://localhost:8081/movies/{titulo}
 desta forma trazendo de forma ordenada todos os titulos dispostos com o nome buscado. 
 
